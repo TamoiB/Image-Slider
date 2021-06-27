@@ -66,24 +66,28 @@ left: 15px;
   background: transparent;
 }
 .slide:first-child{
-  background: url(/images/bg-image1.jpeg) no-repeat center center/cover;
+  background: url(images/bg-image1.jpeg) no-repeat center center/cover;
 }
 .slide:nth-child(2){
-  background: url(/images/bg-image2.jpeg) no-repeat center top/cover;
+  background: url(images/bg-image2.jpeg) no-repeat center top/cover;
 }
 .slide:nth-child(3){
-  background: url(/images/bg-image3.jpeg) no-repeat center top/cover;
+  background: url(images/bg-image3.jpeg) no-repeat center top/cover;
 }
 .slide:nth-child(4){
-  background: url(/images/bg-image4.jpeg) no-repeat center top/cover;
+  background: url(images/bg-image4.jpeg) no-repeat center top/cover;
 }
 .slide:nth-child(5){
-  background: url(/images/bg-image5.jpeg) no-repeat center top/cover;
+  background: url(images/bg-image5.jpeg) no-repeat center top/cover;
 }
 .slide:nth-child(6){
-  background: url(/images/bg-image6.jpeg) no-repeat center top/cover;
+  background: url(images/bg-image6.jpeg) no-repeat center top/cover;
+}
+.slide:nth-child(7){
+  background: url(images/bg-image7.jpg) no-repeat center top/cover;
 }
 @media (max-width:700px) {
+  
   .slide .content{
     width: 60%;
     bottom: 50px;
